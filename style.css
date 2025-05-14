@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Table Example</title>
+    <style>
+        table {
+            width: 70%;
+            border-collapse: collapse;
+            margin: 20px auto;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        caption {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <table>
+        <caption>HTML Table Example</caption>
+        <tr>
+            <th>Employee ID</th>
+            <th>Employee Name</th>
+            <th>Age</th>
+            <th>Gender</th>
+            <th>Department</th>
+        </tr>
+        <tr>
+            <td>101</td>
+            <td>John Smith</td>
+            <td>34</td>
+            <td>Male</td>
+            <td>Sales</td>
+        </tr>
+        <tr>
+            <td>102</td>
+            <td>Jane Doe</td>
+            <td>28</td>
+            <td>Female</td>
+            <td>Marketing</td>
+        </tr>
+        <tr>
+            <td>103</td>
+            <td>Michael Johnson</td>
+            <td>45</td>
+            <td>Male</td>
+            <td>HR</td>
+        </tr>
+        <tr>
+            <td>104</td>
+            <td>Emily Davis</td>
+            <td>30</td>
+            <td>Female</td>
+            <td>Finance</td>
+        </tr>
+    </table>
+
+</body>
+</html>
